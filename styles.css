@@ -1,0 +1,130 @@
+.data-style{
+    margin-bottom: 1.5em;
+}
+
+* {
+    color: #361c15;
+}
+
+body {
+    background-color: #f5f5ea;
+    width: 800px;
+    border: 3px dotted #a5b9dd;
+    padding: 20px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+header {
+    padding: 40px;
+    background-color: #e4e6c3;
+  }
+
+#title {
+    background-color: #a5b9dd;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+}
+
+#title:hover {
+    color: #f7567c;
+}
+
+.withcolorfulborders {
+    border-bottom: 4px solid #f7567c;
+    border-left: 4px solid #c5d86d;
+    border-right: 4px solid #a5b9dd;
+}
+
+p.introduction {
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.0;
+}
+
+p.portfolio {
+    position:absolute;
+    top: 55%;
+    right: 55%;
+}
+
+#message {
+    background-color: #361c15;
+    font-style: oblique;
+    color: #a5b9dd;
+    text-align: center;
+}
+
+#message:hover {
+    background-color: #a5b9dd;
+    color: #361c15;
+}
+
+.tabla-info {
+    background-color: #e4e6c3;
+    font-family:monospace;
+    text-decoration: overline;
+    line-height: 1.0;
+    font-size: 25px;
+}
+
+.image-container {
+    height: 310px;
+    width: 230px;
+    position:relative;
+    margin:auto;
+}
+
+.image-container img{
+    height: 100%;
+    width: 100%;
+}
+
+.transition-image {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.transition-image:hover {
+    opacity: 1;
+}
+
+hr.dotted-border {
+    border-top: 3px dotted #f7567c;
+}
+
+
+#profile-pic {
+    height: 200px;
+    width: 200px;
+    position:relative;
+    margin:auto;
+}
+#profile-pic img{
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+.profile-pic-transition-image{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    background-color: #361c15;
+
+}
+
+.profile-pic-transition-image:hover{
+    opacity: 1;
+
+}
