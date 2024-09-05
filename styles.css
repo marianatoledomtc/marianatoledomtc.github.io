@@ -8,7 +8,7 @@
 
 body {
     background-color: #f5f5ea;
-    width: 800px;
+    width: 100%;
     border: 3px dotted #a5b9dd;
     padding: 20px;
     margin-left: auto; 
@@ -128,3 +128,36 @@ hr.dotted-border {
     opacity: 1;
 
 }
+
+@media only screen and (max-width: 768px) {
+    .form-box {
+      flex-direction: column;
+    }
+    .form-box input,
+    .container {
+      display: block;
+      width: 100%;
+      font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .form-box {
+      flex-direction: column;
+    }
+    .form-box input,
+    #content > div.container.text-center.withcolorfulborders.tabla-info {
+      display: block;
+      width: 100%;
+      font-size: 20px;
+      text-align: right!important;
+    }
+  .pure-hidden-sm {
+     display:none
+    } 
+    .text {
+        display: none;
+    }
+    .susie-image{
+        flex:none!important;
+    }
+  }
